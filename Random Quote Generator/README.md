@@ -17,6 +17,11 @@ Users can also share their favorite quotes on Twitter with one click.
 - HTML5 – Structure of the web page  
 - CSS3 – Styling and responsive design  
 - JavaScript(ES6) – Logic and API handling  
-- Fetch API – To get random quotes from an external API  
+- Fetch API – To get random quotes from an external API
+
+  ## Live Demo
+  You can view the live version of the project here:
+👉 [View Project](https://quotegenerator11.netlify.app/)
+
 
 ### Made with ❤️ By [Aksa Ansari](https://github.com/Aksa-Ansari)
