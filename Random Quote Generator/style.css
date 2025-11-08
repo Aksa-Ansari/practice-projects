@@ -1,0 +1,66 @@
+body {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.quote-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#quote {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#author {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#newQuote,
+#shareQuote {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#newQuote:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 480px) {
+    .quote-box {
+        padding: 20px;
+    }
+
+    #quote {
+        font-size: 1.1rem;
+    }
+
+    button {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+}
