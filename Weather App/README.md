@@ -4,20 +4,20 @@ A simple and responsive Weather App built using HTML, CSS, and JavaScript.
 It fetches real-time weather data using the [OpenWeatherMap API](https://openweathermap.org/api).
 
 ## Features
--Search Weather by City Name 
--Loading Spinner while fetching data  
--Button Disabled during loading (prevents multiple API calls)  
--Press Enter to Search (no need to click button)  
--Responsive Design for all devices  
--Displays City, Temperature, Condition, and Humidity**  
--Input Automatically Clears after successful search  
--Error Handling for invalid or empty city names
+- Search Weather by City Name 
+- Loading Spinner while fetching data  
+- Button Disabled during loading (prevents multiple API calls)  
+- Press Enter to Search (no need to click button)
+- Responsive Design for all devices  
+- Displays City, Temperature, Condition, and Humidity**  
+- Input Automatically Clears after successful search  
+- Error Handling for invalid or empty city names
 
 ## Technologies Used
--HTML5
--CSS3 
--JavaScript(ES6)
--OpenWeatherMap API
+- HTML5
+- CSS3 
+- JavaScript(ES6)
+- OpenWeatherMap API
 
 ## How It Works
 
