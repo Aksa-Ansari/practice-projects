@@ -33,4 +33,8 @@ On small screens (max-width: 600px):
 - CSS3  
 - Remix Icons
 
+## Live Demo
+You can view the live version of the project here:
+👉 [View Project](https://dentytech-by-aksa.netlify.app/)
+
 ### Made with ❤️ By [Aksa Ansari](https://github.com/Aksa-Ansari)
