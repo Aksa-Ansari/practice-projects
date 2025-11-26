@@ -4,6 +4,7 @@ A simple and responsive Weather App built using HTML, CSS, and JavaScript.
 It fetches real-time weather data using the [OpenWeatherMap API](https://openweathermap.org/api).
 
 ## Features
+<<<<<<< HEAD
 - Search Weather by City Name 
 - Loading Spinner while fetching data  
 - Button Disabled during loading (prevents multiple API calls)  
@@ -18,6 +19,22 @@ It fetches real-time weather data using the [OpenWeatherMap API](https://openwea
 - CSS3 
 - JavaScript(ES6)
 - OpenWeatherMap API
+=======
+-Search Weather by City Name 
+-Loading Spinner while fetching data  
+-Button Disabled during loading (prevents multiple API calls)  
+-Press Enter to Search (no need to click button)  
+-Responsive Design for all devices  
+-Displays City, Temperature, Condition, and Humidity**  
+-Input Automatically Clears after successful search  
+-Error Handling for invalid or empty city names
+
+## Technologies Used
+-HTML5
+-CSS3 
+-JavaScript(ES6)
+-OpenWeatherMap API
+>>>>>>> 0143f5f (main)
 
 ## How It Works
 
@@ -38,4 +55,8 @@ It fetches real-time weather data using the [OpenWeatherMap API](https://openwea
 You can view the live version of the project here:
 👉[View Project](https://weather-app-aksa.netlify.app/)
 
+<<<<<<< HEAD
 ### Made with ❤️ By [Aksa Ansari](https://github.com/Aksa-Ansari)
+=======
+### Made with ❤️ By [Aksa Ansari](https://github.com/Aksa-Ansari)
+>>>>>>> 0143f5f (main)

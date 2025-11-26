@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+#nav h3 {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+#intro {
+    width: 100%;
+    min-height: 40%;
+    padding: 50px;
+}
+
+#intro h1 {
+    font-size: 100px;
+    letter-spacing: -3px;
+    line-height: 110px;
+    font-weight: 600;
+}
+
+#place {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3,
+h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#hero-img {
+    height: 85%;
+    width: 100%;
+    background-color: orange;
+    background-image: url(imgs/img1.webp);
+    background-size: cover;
+}
+
+#about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+
+#about h2 {
+    width: 60%;
+    font-size: 75px;
+    line-height: 75px;
+    height: 100%;
+    font-weight: 600;
+}
+
+#about2 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid black;
+    padding: 0px 0px 0px 60px;
+}
+
+#about2 h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#icons i {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#work {
+    width: 100%;
+    height: max-content;
+    padding: 50px 60px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#work1 {
+    width: 35%;
+    height: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#work1 h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#work1 i {
+    font-size: 35px;
+}
+
+#work2 {
+    width: 65%;
+    height: max-content;
+    padding-left: 60px;
+    border-left: 2px solid black;
+}
+
+.work-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.work-part:nth-child(1) {
+    padding-top: 0;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #000;
+}
+
+.work-part .elm {
+    width: 50%;
+    height: 100%;
+}
+
+.work-part .elm:nth-child(1) {
+    border-right: 2px solid #000;
+    padding-right: 50px;
+}
+
+.work-part .elm:nth-child(2) {
+    padding-left: 50px;
+}
+
+.work-part .elm h4 {
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.work-part .elm p {
+    font-size: 18px;
+    color: gray;
+}
+
+#text {
+    height: 30%;
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+#text h3 {
+    font-size: 90px;
+}
+
+#img2 {
+    height: 85%;
+    width: 100%;
+    background-color: orange;
+    background-image: url(imgs/img2.webp);
+    background-size: cover;
+}
+
+#camera {
+    width: 100%;
+    height: 45%;
+    padding: 50px 60px;
+    display: flex;
+}
+
+#camera h2 {
+    width: 70%;
+    font-size: 120px;
+    height: 100%;
+}
+
+#camera-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#camera-text>p {
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#btn {
+    display: flex;
+    gap: 10px;
+}
+
+#btn p {
+    background-color: #000;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+#img3 {
+    height: 85%;
+    width: 100%;
+    background-color: orange;
+    background-image: url(imgs/img3.webp);
+    background-size: cover;
+}
+
+#img4 {
+    height: 85%;
+    width: 100%;
+    background-color: orange;
+    background-image: url(imgs/img4.webp);
+    background-size: cover;
+}
+
+.Robot {
+    border-bottom: 2px solid #000;
+}
+
+.user {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user img {
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-text .user-name {
+    font-weight: 600;
+}
+
+.user-text .user-do {
+    font-weight: 600;
+    color: gray;
+    margin-top: 4px;
+}
+
+#navbar {
+    width: 100%;
+    height: max-content;
+    background-color: #1e1e21;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+#nav1 {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+#nav1 h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#nav1 h1 {
+    font-size: 110px;
+}
+
+#nav1 button {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 180px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#nav2 .part {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#nav2 .item {
+    color: gray;
+}
+
+#nav2 .part button {
+    padding: 10px 18px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#copy-right p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
